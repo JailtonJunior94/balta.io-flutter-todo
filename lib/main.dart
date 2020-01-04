@@ -12,9 +12,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       title: 'Todo App',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.blueGrey,
-      ),
+      theme: ThemeData(primarySwatch: Colors.blueGrey),
       home: HomePage(),
     );
   }
